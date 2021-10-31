@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/slide_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cook Your Favorite Food"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-thin"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/slide_descs"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:text="Remember to cook healthy food and cook for the people you love"
+        android:textColor="@color/gray"
+        android:textSize="15sp" />
+
+    <ImageView
+
+        android:layout_marginLeft="30dp"
+        android:id="@+id/slide_img"
+        android:layout_width="330dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="210dp"
+        />
+
+
+</RelativeLayout>

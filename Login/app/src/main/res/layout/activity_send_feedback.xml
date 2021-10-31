@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SendFeedback">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="To"/>
+        <TextView
+            android:textSize="15sp"
+            android:text="nam.tv.60cntt@ntu.edu.vn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_to"/>
+    </LinearLayout>
+    <EditText
+        android:background="@drawable/bo_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_subject"
+        android:hint="Subject"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:background="@drawable/bo_edt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:layout_marginTop="10dp"
+
+        android:id="@+id/et_message"
+        android:hint="Message"
+        android:padding="10dp"/>
+    <Button
+
+        android:layout_marginBottom="20dp"
+        app:backgroundTint="@color/yellow"
+        android:background="@drawable/botron_button"
+        android:text="SEND"
+        android:layout_width="200dp"
+        android:layout_height="47dp"
+        android:id="@+id/bt_send"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
